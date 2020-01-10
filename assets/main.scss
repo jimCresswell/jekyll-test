@@ -1,0 +1,25 @@
+---
+---
+@import "minima";
+
+$col_bg: #f2f0df; /* faun */
+$col_text: black;
+$col_link: #3fa435; /* green */
+
+body {
+  /* The default background colour. */
+  background-color: $col_bg;
+
+  /* The default text colour. */
+  color: $col_text;
+
+  /* Default typeface. */
+  // font-family: 'Muli', sans-serif;
+}
+
+a {
+  color: $col_link;
+}
+a:visited {
+  color: scale-color($col_link, $lightness: -10%, $saturation: -10%);
+}

@@ -11,4 +11,4 @@ These files are written in "Markdown", using the [Kramdown syntax](https://kramd
 
 Here is a picture of some progress.
 
-![yellow flag irises](../images/iris_pic.jpg 'some irises')
+![yellow flag irises](../assets/images/iris_pic.jpg 'some irises')
