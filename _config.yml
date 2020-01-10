@@ -14,14 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Wildlife Gardeners of Haggerston
-email: your-email@example.com
+email: WildlifeGardenersOfHaggerston [at] gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Wildlife Gardeners of Haggerston are creating a healthy Regent‘s Canal
   for wildlife & people - the start of a green corridor to the River Lea!
 baseurl: "/jekyll-test" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+twitter_username: WGHaggerston
+instagram_username: wildlifegardenersofhaggerston
 
 # Build settings
 markdown: kramdown
