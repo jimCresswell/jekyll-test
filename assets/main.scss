@@ -1,5 +1,8 @@
 ---
 ---
+// $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$content-width: 1000px;
+
 @import "minima";
 
 $col_bg: #f2f0df; /* faun */
@@ -22,4 +25,18 @@ a {
 }
 a:visited {
   color: scale-color($col_link, $lightness: -10%, $saturation: -10%);
+}
+
+
+.footer-col-1 {
+  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+  width:         calc(33% - (#{$spacing-unit} / 2));
+}
+.footer-col-2 {
+  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+  width:         calc(33% - (#{$spacing-unit} / 2));
+}
+.footer-col-3 {
+  width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+  width:         calc(33% - (#{$spacing-unit} / 2));
 }
